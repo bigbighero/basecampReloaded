@@ -6,11 +6,24 @@
 /*   By: roferrei <roferrei@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/27 02:58:53 by roferrei          #+#    #+#             */
+<<<<<<< HEAD
 /*   Updated: 2022/05/27 05:39:22 by roferrei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_putchar(char c);
+=======
+/*   Updated: 2022/05/27 05:18:02 by roferrei         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include <unistd.h>
+
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
+>>>>>>> 8722c27c3d838aebe1f19cb1a5b30de2a2cb2617
 
 void	ft_print(char *c)
 {
